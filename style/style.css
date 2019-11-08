@@ -30,6 +30,9 @@ nav li a{
 li, p {
   text-align: center;
   color: blue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 img {
       padding: 30px 60px 90px 120px;
