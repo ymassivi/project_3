@@ -11,14 +11,6 @@ function init(){
 		}
 	};
 
-	var myMap = new google.maps.Map(el, mapOptions);
-
-	var marker = new google.maps.Marker({
-		position: myLocation,
-		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
-	});
 
 	var contentString = '<h1>Willis Tower</h1><p>Top of the building</p>';
 
