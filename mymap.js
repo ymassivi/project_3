@@ -1,7 +1,7 @@
 function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+	var myLocation = new google.maps.LatLng(41.878988, 87.635926);
 	var mapOptions = {
 		center: myLocation,
 		zoom: 18,
@@ -20,7 +20,7 @@ function init(){
 		icon: 'iit-icon.png'
 	});
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+	var contentString = '<h1>Willis Tower</h1><p>Top of the building</p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
