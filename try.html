@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-       /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
-    </style>
+  <meta charset="UTF-8">
+    <title>Yannick's Map</title>
+    <link rel="stylesheet" href="style/normalize.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script async src="map.js"></script>
+
   </head>
-  <body>
+  <body class="map">
+    <nav>
+      <ul>
+       <li><a href="index.html">My Resume</a></li>
+       <li><a href="mylifemotivation.html">My life motivation</a></li>
+       <li><a href="mytravels.html">My travels</a></li>
+       <li><a href="mymap.html">My Map</a></li>
+      </ul>
+    </nav> 
     <h3>My Google Maps Demo</h3>
     <!--The div element for the map -->
     <div id="map"></div>
@@ -23,7 +31,6 @@ function initMap() {
       document.getElementById('map'), {zoom: 4, center: uluru});
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
-}
     </script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads
