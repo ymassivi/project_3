@@ -4,7 +4,7 @@ function initMap() {
           center: {lat:4.896318, lng: -36.129691},
           mapTypeId: 'terrain'
         });
-   /*     var flightPlanCoordinates = [
+        var flightPlanCoordinates = [
           {lat:-33.971371, lng: 18.601759},
           {lat:49.009754, lng: 2.548000},
           {lat: 25.797194, lng: -80.259822},
@@ -17,6 +17,6 @@ function initMap() {
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
-        flightPath.setMap(map);  */
+        flightPath.setMap(map);  
       }
 
