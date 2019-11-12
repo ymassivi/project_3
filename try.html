@@ -24,31 +24,28 @@
     <script>
 // Initialize and add the map
 function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 5,
-    center: {lat:87.635926 , lng: -91.585011},
-    mapTypeId: 'terrain'
-  });
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 3,
+          center: {lat: 0, lng: -180},
+          mapTypeId: 'terrain'
+        });
 
-  // Define the LatLng coordinates for the polygon's path.
-  var triangleCoords = [
-    {lat:-33.971371, lng: 18.601759},
-    {lat: 49.009705, lng: 2.547914},
-    {lat: 25.797194, lng: 80.259822},
-    {lat:-33.971371, lng: 18.601759}
-  ];
+        var flightPlanCoordinates = [
+          {lat: 37.772, lng: -122.214},
+          {lat: 21.291, lng: -157.821},
+          {lat: -18.142, lng: 178.431},
+          {lat: -27.467, lng: 153.027}
+        ];
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
 
-  // Construct the polygon.
-  var bermudaTriangle = new google.maps.Polygon({
-    paths: triangleCoords,
-    strokeColor: '#FF0000',
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
-    fillColor: '#FF0000',
-    fillOpacity: 0.35
-  });
-  bermudaTriangle.setMap(map);
-}
+        flightPath.setMap(map);
+      }
 
 </script>
     <!--Load the API from the specified URL
