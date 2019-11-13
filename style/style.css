@@ -45,7 +45,8 @@ img {
      height: 600px;
 }
 embed{
-      padding: 30px 120px 30px 650px;
+      width: 850px;
+      height: 600px;
 }
 h1, h2, h3, h4{
   font-family: Cambria,Arial;
