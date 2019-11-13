@@ -19,6 +19,9 @@ nav{
   font-family: Cambria,Arial;
   background-color: red ;
   position: fixed;
+  top: 5.88em;
+  left: 0;
+  right: 0;
 
 
 }
@@ -54,9 +57,10 @@ h1, h2, h3, h4{
 }
 h1 {
   font-size: 30px;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
   color: red;
+  padding: 0.28em 0;
+  position: relative;
+  margin: 0;
 }
 h2 {
   color: lightblue;
@@ -85,4 +89,7 @@ strong{
       background-color: #c00;
       margin:0 auto;
       overflow: hidden;
+      padding: 0.25em 0;
+      position: relative;
+      margin: 0;
 }
