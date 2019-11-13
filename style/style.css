@@ -21,6 +21,7 @@ ul{
  list-style-type: rectangular;
  color: lightblue;
  text-align: center;
+ position: fixed;
 }
 nav{
   border: solid navy;
@@ -28,7 +29,7 @@ nav{
   text-align: center;
   font-family: Cambria,Arial;
   background-color: red ;
-  position: fixed;
+
 
 }
 nav li {
@@ -51,7 +52,8 @@ li, p {
 img {
      object-fit: cover;
      object-position: 0 -1em;
-     width: 70%;
+     width: 850px;
+     height: 600px;
 }
 embed{
       padding: 30px 120px 30px 650px;
