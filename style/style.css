@@ -48,7 +48,9 @@ li, p {
   padding: 0;
 }
 img {
-      padding: 30px 60px 90px 120px;
+     object-fit: cover;
+     object-position: 0 -1em;
+     width: 100%;
 }
 embed{
       padding: 30px 120px 30px 650px;
