@@ -5,10 +5,10 @@ function initMap() {
           mapTypeId: 'terrain'
         });
         var flightPlanCoordinates = [
-          {lat:-33.971371, lng: 18.601759},
+          {lat:-33.968777, lng: 18.597153},
           {lat:49.009754, lng: 2.548000},
           {lat: 25.797194, lng: -80.259822},
-          {lat:-33.971371, lng: 18.601759}
+          {lat:-33.968777, lng: 18.597153}
         ];
         var flightPath = new google.maps.Polyline({
           path: flightPlanCoordinates,
