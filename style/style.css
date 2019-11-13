@@ -28,6 +28,7 @@ nav{
   text-align: center;
   font-family: Cambria,Arial;
   background-color: red ;
+  position: fixed;
 
 }
 nav li {
@@ -50,7 +51,7 @@ li, p {
 img {
      object-fit: cover;
      object-position: 0 -1em;
-     width: 100%;
+     width: 70%;
 }
 embed{
       padding: 30px 120px 30px 650px;
