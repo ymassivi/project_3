@@ -21,7 +21,7 @@ ul{
  list-style-type: rectangular;
  color: lightblue;
  text-align: center;
- position: fixed;
+ 
 }
 nav{
   border: solid navy;
@@ -29,6 +29,7 @@ nav{
   text-align: center;
   font-family: Cambria,Arial;
   background-color: red ;
+  position: fixed;
 
 
 }
