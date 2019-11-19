@@ -27,10 +27,13 @@ body {
 nav ul li :hover {
   background-color: #DCDCDC;
 }
-ul{
- list-style-type: rectangular;
- color: lightblue;
- text-align: center;
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 
 nav ul li a {
 	     display: block;
@@ -60,11 +63,6 @@ nav li {
   text-align: center;
 }
 
-nav li a{
-  color: darkblue;
-  padding: 13px 15px;
-  text-decoration: none;
-}
 li, p {
   text-align: center;
   color: black;
