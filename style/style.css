@@ -22,14 +22,7 @@ body {
 	padding: 31.875px;
 	padding-bottom: 0;
 	background-color: antiquewhite;
-	text-align: center;
-.navbar {
-   overflow: hidden;
-   background-color: #333;
-   position: fixed;
-   top: 0;
-   width: 100%;
-  
+	text-align: center; 
 }
 nav ul li :hover {
   background-color: #DCDCDC;
