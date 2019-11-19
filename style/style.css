@@ -20,15 +20,28 @@ ul{
  list-style-type: rectangular;
  color: lightblue;
  text-align: center;
+
+nav ul li a {
+	     display: block;
+	     align-items: center;
+	     padding: 7.31px 29.75px;
+	     font-size: 19px;
+	     text-decoration: none;
+	     white-space: pre-line;
+             text-align: center;
+	     font-family: Cambria, Arial;
+	     color: darkgoldenrod;
+}
  
 }
 nav{
-  border: solid navy;
-  margin: 0;
-  text-align: center;
-  font-family: Cambria,Arial;
-  background-color: red ;
-
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: aliceblue;
+  box-shadow: 0 0 21.25px 0 black;
+  z-index: 2;
 
 }
 nav li {
