@@ -10,8 +10,19 @@ header {
 	z-index: 2;
 }
 body {
-  background-color: grey;
-  text-align: center;
+	width: 1140px;
+	background-size: cover;
+	font-family: Cambria, Arial;
+	font-size: 17px;
+	line-height: 19.55px;
+	margin-top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 31.875px;
+	padding-bottom: 0;
+	background-color: antiquewhite;
+	text-align: center;
+  
 }
 nav ul li :hover {
   background-color: #DCDCDC;
