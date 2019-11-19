@@ -23,6 +23,12 @@ body {
 	padding-bottom: 0;
 	background-color: antiquewhite;
 	text-align: center;
+.navbar {
+   overflow: hidden;
+   background-color: #333;
+   position: fixed;
+   top: 0;
+   width: 100%;
   
 }
 nav ul li :hover {
