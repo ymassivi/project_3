@@ -10,12 +10,13 @@ header {
 	z-index: 2;
 }
 body {
-	width: 1140px;
+	width:auto;
+	border: 1px solid black;
 	background-size: cover;
 	font-family: Cambria, Arial;
 	font-size: 17px;
-	line-height: 19.55px;
-	margin-top: 100px;
+	line-height: 1.6;
+	margin-top: 80px;
 	margin-left: 0;
 	margin-right: 0;
 	padding: 31.875px;
@@ -35,9 +36,9 @@ nav ul {
 	padding: 0;
 }
 nav li a{
-  color: darkblue;
-  padding: 13px 15px;
-  text-decoration: none;
+         color: darkblue;
+         padding: 13px 15px;
+         text-decoration: none;
 }
 nav ul li a {
 	     display: block;
@@ -53,13 +54,13 @@ nav ul li a {
  
 }
 nav{
-  position: fixed;
-  top: 100px;
-  left: 0;
-  right: 0;
-  background-color: aliceblue;
-  box-shadow: 0 0 21.25px 0 black;
-  z-index: 2;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    box-shadow: 0 0 21.25px 0 black;
+    z-index: 2;
 
 }
 nav li {
