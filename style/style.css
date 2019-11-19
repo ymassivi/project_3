@@ -90,7 +90,7 @@ h1, h2, h3, h4{
 }
 h1 {
   font-size: 30px;
-  color: red;
+  color: pale-red;
   padding: 0.28em 0;
   position: relative;
   margin: 0;
@@ -104,7 +104,7 @@ h3 {
   font-size: 20px;
 }
 h4 {
-  color: red;
+  color: pale-red;
   font-size: 15px;
 }
 
