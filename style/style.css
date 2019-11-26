@@ -1,5 +1,5 @@
 header {
-	
+
 	top: 0;
 	left: 0;
 	right: 0;
@@ -22,7 +22,7 @@ body {
 	padding: 31.875px;
 	padding-bottom: 0;
 	background-color: antiquewhite;
-	text-align: center; 
+	text-align: center;
 }
 nav ul li :hover {
   background-color: #DCDCDC;
@@ -50,7 +50,7 @@ nav ul li a {
 	     font-family: Cambria, Arial;
 	     color: darkgoldenrod;
 }
- 
+
 }
 nav{
     position: fixed;
@@ -125,7 +125,87 @@ strong{
       background-color: #c00;
       margin:0 auto;
       overflow: hidden;
-     
-     
-     
+
+
+
+}
+@media only screen and (min-width: 320px) {
+  body {
+    margin: 0;
+    padding: 0
+  }
+  p {
+    padding: 0em 2em;
+  }
+	img {
+	     object-fit: cover;
+	     object-position: 0 -1em;
+	     width: 850px;
+	     height: 600px;
+	}
+	embed{
+	      width: 850px;
+	      height: 600px;
+	}
+	h1, h2, h3, h4{
+	  font-family: Cambria,Arial;
+	  text-align:center;
+	#map {
+	        width: 850px;
+	        height: 700px;
+	        background-color: #c00;
+	        margin:0 auto;
+	        overflow: hidden;
+}
+  header {
+
+			top: 0;
+			left: 0;
+			right: 0;
+			position: fixed;
+			display: flex;
+			flex-direction: row;
+			height: 50px;
+			z-index: 2;
+
+}
+@media only screen and (min-width: 628px) {
+  body {
+    margin: 0;
+    padding: 0
+  }
+  p {
+    padding: 0em 2em;
+  }
+	img {
+	     object-fit: cover;
+	     object-position: 0 -1em;
+	     width: 850px;
+	     height: 600px;
+	}
+	embed{
+	      width: 850px;
+	      height: 600px;
+	}
+	h1, h2, h3, h4{
+	  font-family: Cambria,Arial;
+	  text-align:center;
+	#map {
+	        width: 850px;
+	        height: 700px;
+	        background-color: #c00;
+	        margin:0 auto;
+	        overflow: hidden;
+}
+  header {
+
+			top: 0;
+			left: 0;
+			right: 0;
+			position: fixed;
+			display: flex;
+			flex-direction: row;
+			height: 50px;
+			z-index: 2;
+
 }
